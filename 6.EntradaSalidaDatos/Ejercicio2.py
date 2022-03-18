@@ -13,11 +13,12 @@
 
 # EF: examen final
 
-p1 = int(input("P1: "))
-p2 = int(input("P2: "))
-p3 = int(input("P3: "))
-exaP = int(input("Examen Parcial: "))
-exaF = int(input("Examen Final: "))
+p1 = float(input("P1: "))
+p2 = float(input("P2: "))
+p3 = float(input("P3: "))
+exaP = float(input("Examen Parcial: "))
+exaF = float(input("Examen Final: "))
 promedioPractica = (p1+p2+p3)/3
 promedioFinal = (promedioPractica + (2*exaP)+(3*exaF))/6
-print(F"El promedio final es {promedioFinal}")
+print(f"El promedio de practica es {promedioPractica}")
+print(f"El promedio final es {promedioFinal}")
