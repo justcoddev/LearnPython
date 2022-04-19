@@ -6,6 +6,6 @@ Escribir un programa que pregunte al usuario su edad y muestre por pantalla todo
 edad = int(input('Ingrese su edad: '))
 i = 0
 
-while i < edad:
+while i != edad:
     i +=1
     print(f'ha festejado su cumpleaños numero: {i}')
